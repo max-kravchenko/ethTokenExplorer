@@ -3,7 +3,7 @@
 This is the **demo server** to get the balance of ERC20/ETH native tokens from the wallet address and save the balance to the json file. Server built with TypeScript / NodeJS / Web3.js(Alchemy) / Express.
 
 ## Video demo
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/ddc7c12551c6461597f925780a73e9f0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+[<img src="./img/demo.png" width="50%">](https://www.loom.com/share/ddc7c12551c6461597f925780a73e9f0)
 
 ## Usage Instructions
 
