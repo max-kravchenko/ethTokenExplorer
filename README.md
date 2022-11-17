@@ -9,9 +9,9 @@ To to run the project locally, follow these easy steps:
 1. Clone the project to your local directory using HTTPS or SSH links:
 ```sh
 HTML
-$ git clone https://github.com/fe-jul22-team5/product-catalog.git
+$ git clone https://github.com/max-kravchenko/ethTokenExplorer.git
 SSH
-$ git clone git@github.com:fe-jul22-team5/product-catalog.git
+$ git clone git@github.com:max-kravchenko/ethTokenExplorer.git
 ```
 
 2. Open the project and install all dependencies for the project in the root folder:
@@ -22,7 +22,7 @@ $ npm i
 ```
 $ npm start
 ```
-4. Open localhost:3000 and add the wallet address after the dash and view the balance in the browser.
+4. The localhost:3000 with default wallet address will open and demonstrate the balances. You can change the address to view different wallets.
 ```
 Example: http://localhost:3000/0xA145ac099E3d2e9781C9c848249E2e6b256b030D
 ```

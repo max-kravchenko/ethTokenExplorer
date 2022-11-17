@@ -10,7 +10,7 @@
   "license": "Apache-2.0",
   "keywords": [],
   "scripts": {
-    "start": "npx ts-node src/index.ts",
+    "start": "npx ts-node src/index.ts & npm run open",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "gts lint",
     "clean": "gts clean",
@@ -19,12 +19,15 @@
     "prepare": "npm run compile",
     "pretest": "npm run compile",
     "posttest": "npm run lint",
-    "dev": "nodemon --exec ts-node --files src/index.ts"
+    "dev": "nodemon --exec ts-node --files src/index.ts",
+    "open": "opener http://localhost:3000/0xA145ac099E3d2e9781C9c848249E2e6b256b030D"
   },
   "devDependencies": {
+    "@types/node": "^14.11.2",
+    "concurrently": "^7.5.0",
     "gts": "^3.1.1",
-    "typescript": "~4.7.0",
-    "@types/node": "^14.11.2"
+    "http-server": "^14.1.1",
+    "typescript": "~4.7.0"
   },
   "dependencies": {
     "@alch/alchemy-web3": "^1.4.7",
