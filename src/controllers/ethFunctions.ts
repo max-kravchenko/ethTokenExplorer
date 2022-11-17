@@ -1,5 +1,3 @@
-/* eslint-disable node/no-unsupported-features/node-builtins */
-
 import {ethFunctions} from '../functions/ethFunctions';
 import {promises as fs} from 'fs';
 
