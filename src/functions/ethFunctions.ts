@@ -40,7 +40,7 @@ export const ethFunctions = (web3: any) => {
         Math.pow(10, await getDecimal(token.contractAddress));
 
       const obj = {
-        [newToken]: supply + ' coins',
+        [newToken]: supply + ' coin(-s)',
       };
 
       enhancedBalance.push(obj);
